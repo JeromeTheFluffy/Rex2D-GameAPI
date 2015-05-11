@@ -10,7 +10,6 @@ import java.awt.Graphics2D;
 class GamePanel extends JPanel {
         
         // constructor
-        public GamePanel()
-        {
-                
-                
+        public GamePanel() {}
+        
+}
