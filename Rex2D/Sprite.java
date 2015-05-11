@@ -6,14 +6,17 @@ class Sprite {
     
     public int x;
     public int y;
-    Image sprite;
+    BufferedImage sprite;
     
     // constructor
-    public Sprite(String imagePath){
+    public Sprite(String imagePath, int width, int height){
         
-        this.setSprite(imagePath);
+        this.setSprite(imagePath,width,height);
         
     }
     // getters and setters
+    public void setX(int argx){
+        
+    }
     
 }
